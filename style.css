@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    background-color: #3d347d;
+}
+.logo{
+    text-align: center;
+    width: 150px;
+}
+.cabecalho{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.botoes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px; 
+    margin-top: 20px;
+}
+.botao-imagem {
+    width: 120px;     
+    height: 120px;    
+    object-fit: contain; 
+    border-radius: 10px;
+    cursor: pointer;
+}

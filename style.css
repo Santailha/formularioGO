@@ -17,7 +17,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px; 
-    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .botao-imagem {
     width: 180px;     
@@ -25,4 +25,26 @@ body{
     object-fit: contain; 
     border-radius: 10px;
     cursor: pointer;
+}
+.botao-image{
+    width: 180px;
+    height: 177px;
+}
+@media (max-width: 780px) {
+    .botoes {
+        gap: 10px 0px;
+        margin-bottom: 10px;
+    }
+    .botoes a {
+        flex: 1 1 45%; 
+        max-width: 45%;
+        text-align: center;
+    }
+    .botao-imagem {
+        max-width: 140px;
+    }
+    .botao-image {
+        max-width: 140px;
+        max-height: 137px;
+    }
 }
